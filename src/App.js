@@ -10,17 +10,19 @@ import Services from './Components/services/Services';
 
 
 
+
 function App() {
   return (
     <>
-    <About />
-    <Contact />
-    <Experience />
-    <Footer />
     <Header />
-    <Nav />
-    <Portfolio />
+    <Nav /> 
+    <About />
+    <Experience />
     <Services/>
+    <Portfolio />
+    <Contact />
+    <Footer />
+    
     </>
   );
 }
