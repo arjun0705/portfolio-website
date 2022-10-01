@@ -44,12 +44,12 @@ function Contact() {
           </article>
 
 
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+91 9112691270</h5>
-            <a href="https://api.whatsapp.com/send?phone=+919112691270" target='_blank'>Send a message</a>
-          </article>
+            <a href="https://api.whatsapp.com/send/?phone=9112691270" target='_blank'>Send a message</a>
+          </article> */}
 
  
         </div>

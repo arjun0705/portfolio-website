@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import { BsTwitter } from "react-icons/bs"
+import { SiLinkedin } from "react-icons/si"
 import { BsInstagram } from "react-icons/bs"
 import { BsGithub } from "react-icons/bs"
 
@@ -19,13 +19,13 @@ function Footer() {
       </ul>
 
       <div className='footer__socials'>
-        <a href="https://twitter.com" target="_blank"><BsTwitter /></a>
+        <a href="https://github.com/arjun0705" target="_blank"><BsGithub /></a>
+        <a href="https://www.linkedin.com/in/arjun-samrat-23b7b11aa/" target="_blank"><SiLinkedin /></a>
         <a href="https://instagram.com" target="_blank"><BsInstagram /></a>
-        <a href="https://github.com" target="_blank"><BsGithub /></a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Design & Develope by Arjun Samrat | all rights reserved</small>
+        <small>&copy; Design & Developed by Arjun Samrat | all rights reserved</small>
       </div>
     </footer>
   )
